@@ -12,7 +12,7 @@ describe('Bubble Sort', function() {
   })
 
   it('should be a method of the Array object', function() {
-    expect(Array.bubbleSort).to.be.a('function');
+    expect(Array.prototype.bubbleSort).to.be.a('function');
   })
 
   it('should take an input Array and apply the bubble sort', function() {
